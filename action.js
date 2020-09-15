@@ -129,14 +129,14 @@ function enviarEmail(event, detailError) {
 	stringEvent += 'Error: ' + decodeError(detailError) + '';
 	agregarEvento(stringEvent, true);
 	var emailBody = {
-		to: 'tenaris@dbtrust.com.ar',
+		to: 'mail@mail.com.ar',
 		subject: 'Error en Evento ' + event.time,
 		text: 'Texto del evento',
 		specific_html: stringData
 	}
 	var optionEmail = {
 		timeout: 10000,
-		url: "http://34.209.112.168:3000/service/emailEvent",
+		url: "http://localhost:3000/service/emailEvent",
 		method: 'POST',
 		form: emailBody
 	}
