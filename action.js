@@ -203,12 +203,12 @@ function decodeError(errString) {
 }
 
 
-var bodySpEvent = function () {
-	var username = "dbtrust", password = "dbTrust#5";
+var bodySpEvent = function (eventNumber) {
+	var username = "dbtrust_team", password = "dbTrust#6";
 	var auth = "Basic " + new Buffer(username + ":" + password).toString("base64");
 	var item = {
 		"DATE": "/Date(" + getTime() + ")/",
-		"EVENT": 1
+		"EVENT": eventNumber
 	}
 	return {
 		timeout: 30000,

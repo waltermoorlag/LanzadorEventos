@@ -72,7 +72,151 @@ cronograma.remove({},function(err,cro){
                 { 
                     descrip: "Sp HANA Devices",
                     time: "0001", 
-                    callOpt : "(function(){ return bodySpEvent()})", 
+                    callOpt : "(function(){ return bodySpEvent(1)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0033", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0133", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0233", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0333", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0433", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0533", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0633", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0733", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0833", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "0933", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1033", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1133", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1233", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1333", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1433", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1533", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1633", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1733", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1833", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "1933", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "2033", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "2133", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "2233", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
+                    reintenta: false
+                },
+                { 
+                    descrip: "Sp Check HANA status",
+                    time: "2333", 
+                    callOpt : "(function(){ return bodySpEvent(2)})", 
                     reintenta: false
                 }
             ]
