@@ -2,6 +2,7 @@ var request = require('request');
 var monitorEventos = require('./models/monitor_eventos');
 var cronograma = require('./models/cronograma');
 var processday = require('./models/processDay');
+
 var event = [];
 // var processError = [];
 var dia = new Date();
@@ -204,7 +205,7 @@ function decodeError(errString) {
 
 
 var bodySpEvent = function (eventNumber) {
-	var username = "dbtrust_team", password = "dbTrust#6";
+	var username = "username", password = "password";
 	var auth = "Basic " + new Buffer(username + ":" + password).toString("base64");
 	var item = {
 		"DATE": "/Date(" + getTime() + ")/",
@@ -212,7 +213,7 @@ var bodySpEvent = function (eventNumber) {
 	}
 	return {
 		timeout: 30000,
-		url: "https://smtf1ne69414e6.br1.hana.ondemand.com/Connected/app.xsodata/P_EVENT",
+		url: "url",
 		method: 'POST',
 		headers: {
 			"Authorization": auth,
